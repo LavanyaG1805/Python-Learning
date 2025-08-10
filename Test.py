@@ -1,10 +1,9 @@
-mat = int(input("Enter Maths Mark:"))
-sci = int(input("Enter Science Mark:"))
-ss = int(input("Enter Social Science Mark:"))
-eng = int(input("Enter English Mark:"))
-tam = int(input("Enter Tamil Mark:"))
-avg = mat + sci + ss + eng + tam / 5
-if (avg < 35):
-    print("Additional Class is Required")
-else:
-    print("You are good to go")
+for i in range(1,5):
+    print()#Gap
+    for j in range(1,i+1):
+        print("*", end="")
+
+#i=1   j(1,2)->j=1
+#i=2   j(1,3)->j=1,2
+#i=3   j(1,4)->j=1,2,3
+#i=4   j(1,5)->1,2,3,4
