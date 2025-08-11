@@ -1,6 +1,20 @@
-def printrange(num1,num2):
-    for i in range(num1,num2+1):
-        print(i)
-a = int(input("Enter Number 1:"))
-b = int(input("Enter Number 2:"))
-printrange(a,b)
+class student():
+    def __init__(self):
+        self.name = ""
+        self.rno = ""
+
+    def display(self):
+        print("Name: ", self.name)
+        print("Register Number: ", self.rno)
+
+s1 = student()
+s2 = student()
+
+s1.name = "Lavanya"
+s1.rno = "CH.EN.U4AIE21166"
+
+s2.name = "Shyam Ganesh"
+s2.rno = "CH.EN.U4AIE21149"
+
+s1.display()
+s2.display()
