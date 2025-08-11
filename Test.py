@@ -1,9 +1,6 @@
-for i in range(1,5):
-    print()#Gap
-    for j in range(1,i+1):
-        print("*", end="")
-
-#i=1   j(1,2)->j=1
-#i=2   j(1,3)->j=1,2
-#i=3   j(1,4)->j=1,2,3
-#i=4   j(1,5)->1,2,3,4
+def printrange(num1,num2):
+    for i in range(num1,num2+1):
+        print(i)
+a = int(input("Enter Number 1:"))
+b = int(input("Enter Number 2:"))
+printrange(a,b)
