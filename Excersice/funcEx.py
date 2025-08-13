@@ -43,7 +43,32 @@ a = int(input("Enter Number 1:"))
 b = int(input("Enter Number 2:"))
 printrange(a,b)
 
+#Question -5(Return)
+s_username = "EMC"
+s_password ="123"
+uname = input("Enter Your User Name: ")
+pwd = input("Enter Your Password: ")
+def validate():
+    if(uname == s_username and pwd == s_password):
+        return True
+    else:
+        return False
+    
+result = validate()
+print(result)
 
+#Question - 6
+a = int(input("Enter Number 1: "))
+b = int(input("Enter Number 2: "))
+c = int(input("Enter Number 3: "))
+
+def add():
+    d = a +b
+    e = d*c
+    return e
+
+res = add()
+print(res)
 
 
 

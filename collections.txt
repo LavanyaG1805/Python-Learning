@@ -1,0 +1,15 @@
+a = 10
+we will store 10 in a
+like same wise to store this a,b,c,d,e,f,g,h,i we need a big container that's called collections
+
+List [] =>
+
+Allow Duplicate 
+any type of data can be stored
+we can modify the list item. we can add or remove
+insert(), append(), extend(), pop()
+
+Difference Between List and Tuple:
+Lists are mutable: This means their elements can be modified (added, removed, or changed) after the list has been created.
+Tuples are immutable: Once a tuple is created, its elements cannot be changed, added, or removed. 
+If modification is required, a new tuple must be created.

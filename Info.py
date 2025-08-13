@@ -12,3 +12,5 @@ more than just one line
 print("Hello World!!")#Whatever we type inside the quotes will return the value as it is.
 a = 10
 print("Number 1:", a) 
+
+print(5, 4, 5) # while your putting comma string will join together.
